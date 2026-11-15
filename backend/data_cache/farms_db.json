@@ -1,0 +1,50 @@
+{
+  "farms": {
+    "farm-78da38b8-a54d-451f-8ae7-ca005820d512": {
+      "id": "farm-78da38b8-a54d-451f-8ae7-ca005820d512",
+      "name": "حقل الاختبار",
+      "location": {
+        "longitude": 35.285,
+        "latitude": 32.4596
+      },
+      "locationUnknown": false,
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.283,
+              32.458
+            ],
+            [
+              35.286,
+              32.458
+            ],
+            [
+              35.286,
+              32.46
+            ],
+            [
+              35.283,
+              32.46
+            ],
+            [
+              35.283,
+              32.458
+            ]
+          ]
+        ]
+      },
+      "boundaryUnknown": false,
+      "profile": null,
+      "cropHistory": [],
+      "historyUnknown": false,
+      "priorities": null,
+      "prioritiesUnknown": false,
+      "unknownPriorities": null,
+      "onboardingStep": 3,
+      "simulated": false
+    }
+  },
+  "scenarios": {}
+}

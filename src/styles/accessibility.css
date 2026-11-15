@@ -1,0 +1,261 @@
+/* Farmer-first reading sizes and contrast. Micro-labels remain secondary to 18px body copy. */
+.simulated-banner {
+  position: sticky;
+  inset-block-start: 0;
+  z-index: 38;
+  color: #705e3f;
+}
+.page-subtitle {
+  font-size: 18px;
+  color: #66765e;
+}
+.hero-content > p {
+  font-size: 18px;
+  color: #edf1e4;
+}
+.step-card h3 {
+  font-size: 19px;
+  font-weight: 500;
+}
+.step-card > p {
+  font-size: 18px;
+  color: #6b7a60;
+}
+.step-card {
+  padding-block-end: 25px;
+}
+.section-heading > div > p {
+  font-size: 16px;
+  color: #75836a;
+}
+.trust-note h3 {
+  font-size: 17px;
+  color: #5c704f;
+}
+.trust-note p {
+  font-size: 15px;
+  color: #78876c;
+}
+.brand-tagline {
+  white-space: nowrap;
+  font-size: 8px;
+  letter-spacing: 0.85px;
+}
+.sidebar-story > span:not(.story-dots) {
+  padding-inline-end: 14px;
+}
+.persistent-footer {
+  color: #6b7d5e;
+  font-size: 12px;
+}
+.nav-item {
+  font-size: 16px;
+}
+.button {
+  font-size: 18px;
+}
+.button-small {
+  font-size: 16px;
+}
+.hero-cta {
+  font-size: 16px;
+}
+.field-hint {
+  color: #627254;
+  font-size: 16px;
+}
+.notice {
+  font-size: 18px;
+}
+.input::placeholder,
+.textarea::placeholder {
+  color: #829172;
+}
+.form-field > label,
+.field-label {
+  color: #425d37;
+}
+.strategy-description {
+  font-size: 18px;
+  color: #627254;
+  min-block-size: 135px;
+}
+.criterion-score-top {
+  font-size: 16px;
+  color: #647f50;
+}
+.strategy-score-label,
+.strategy-kicker {
+  color: #718160;
+}
+.confidence-badge {
+  color: #706b48;
+}
+.resolution-badge {
+  color: #627254;
+}
+.dataset-top p {
+  color: #627254;
+  font-size: 15px;
+}
+.dataset-top h3 {
+  font-size: 18px;
+}
+.dataset-limitation {
+  color: #7b8b6a;
+  font-size: 12px;
+}
+.indicator-card h3 {
+  font-size: 18px;
+  color: #6a7f59;
+}
+.indicator-card .resolution-badge {
+  font-size: 11px;
+}
+.data-gap-chips > span {
+  color: #8b744f;
+}
+.chart-heading h2 {
+  font-size: 20px;
+}
+.recommendation-note > p:not(.recommendation-disclaimer) {
+  color: #62794f;
+}
+.source-limitations,
+.evidence-content section > ul {
+  color: #627254;
+}
+.methodology-product,
+.methodology-limitations p,
+.formula-card p,
+.methodology-footnotes p {
+  font-size: 18px;
+  color: #627254;
+}
+.methodology-limitations p {
+  color: #607f70;
+}
+.task-copy p {
+  font-size: 18px;
+  color: #627254;
+}
+.task-copy h4 {
+  color: #4f713b;
+}
+.task-effort {
+  color: #839574;
+}
+.month-button strong {
+  font-size: 18px;
+}
+.source-button.icon-only {
+  min-inline-size: 44px;
+}
+.crop-reorder-controls .icon-button {
+  min-inline-size: 44px;
+}
+.terrain-view-controls .icon-button {
+  min-inline-size: 44px;
+}
+[lang="ar"] .nav-item {
+  font-size: 18px;
+}
+[lang="ar"] .hero-cta {
+  font-size: 18px;
+}
+[lang="ar"] .step-card > p {
+  font-size: 18px;
+}
+@media (max-width: 1180px) {
+  .strategy-description {
+    min-block-size: 165px;
+  }
+  .criterion-score-top {
+    font-size: 14px;
+  }
+  .dataset-top p {
+    font-size: 13px;
+  }
+  .dataset-top h3 {
+    font-size: 16px;
+  }
+  .dataset-status {
+    font-size: 10px;
+  }
+  .indicator-card h3 {
+    font-size: 16px;
+  }
+  .chart-heading h2 {
+    font-size: 18px;
+  }
+  .month-button strong {
+    font-size: 15px;
+  }
+}
+@media (max-width: 640px) {
+  .trust-link {
+    flex-basis: 100%;
+    margin-inline-start: 48px;
+  }
+  .trust-note > div:nth-child(2) {
+    min-inline-size: calc(100% - 50px);
+  }
+  .trust-note p {
+    font-size: 16px;
+  }
+  .trust-note {
+    flex-wrap: wrap;
+  }
+  .page-subtitle,
+  [lang="ar"] .page-subtitle {
+    font-size: 18px;
+  }
+  .strategy-description {
+    min-block-size: 0;
+  }
+  .criterion-score-top {
+    font-size: 18px;
+  }
+  .dataset-top p {
+    font-size: 14px;
+  }
+  .dataset-top h3 {
+    font-size: 18px;
+  }
+  .indicator-card h3 {
+    font-size: 16px;
+  }
+  .indicator-card .resolution-badge {
+    font-size: 10px;
+  }
+  .month-button strong {
+    font-size: 17px;
+  }
+  .chart-heading h2 {
+    font-size: 20px;
+  }
+  .notice {
+    font-size: 18px;
+  }
+  .crop-history-heading .icon-button {
+    min-inline-size: 44px;
+  }
+  .hero-cta {
+    font-size: 16px;
+  }
+  .button-small {
+    font-size: 16px;
+  }
+  .task-copy p {
+    font-size: 18px;
+  }
+}
+@media print {
+  .task-copy p {
+    font-size: 13px;
+    color: #444;
+  }
+  .notice {
+    font-size: 13px;
+  }
+}
